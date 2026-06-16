@@ -37,7 +37,7 @@ export default function PrivacyPage() {
 
         <div>
           <h2 className="font-space text-xl font-semibold text-white mb-3">7. Contact</h2>
-          <p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:privacy@xynor.ai" className="text-cyan-400 hover:underline">privacy@xynor.ai</a>.</p>
+          <p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:privacyxynorlabs@gmail.com" className="text-cyan-400 hover:underline">privacy@xynor.ai</a>.</p>
         </div>
       </section>
     </main>

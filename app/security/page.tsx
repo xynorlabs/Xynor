@@ -27,7 +27,7 @@ export default function SecurityPage() {
 
         <div>
           <h2 className="font-space text-xl font-semibold text-white mb-3">Responsible Disclosure</h2>
-          <p>If you discover a security vulnerability in our systems, we encourage responsible disclosure. Please report it to us at <a href="mailto:security@xynor.ai" className="text-cyan-400 hover:underline">security@xynor.ai</a> and we will respond within 48 hours.</p>
+          <p>If you discover a security vulnerability in our systems, we encourage responsible disclosure. Please report it to us at <a href="mailto:security.xynorlabs@gmail.com" className="text-cyan-400 hover:underline">security@xynor.ai</a> and we will respond within 48 hours.</p>
         </div>
 
         <div>
