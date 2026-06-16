@@ -1,0 +1,17 @@
+
+
+
+.three-container {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+canvas {
+  display: block;
+  touch-action: none;
+}
+
+.glow {
+  filter: drop-shadow(0 0 20px currentColor);
+}
