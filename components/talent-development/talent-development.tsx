@@ -58,7 +58,7 @@ export function TalentDevelopment() {
 
           <div>
             <div className="text-4xl font-bold gradient-text">
-              8+
+              0
             </div>
             <div className="text-white/50">
               Students Mentored
@@ -67,7 +67,7 @@ export function TalentDevelopment() {
 
           <div>
             <div className="text-4xl font-bold gradient-text">
-              2+
+              0
             </div>
             <div className="text-white/50">
               AI Initiatives
@@ -76,7 +76,7 @@ export function TalentDevelopment() {
 
           <div>
             <div className="text-4xl font-bold gradient-text">
-              30+
+              0
             </div>
             <div className="text-white/50">
               Mentorship Hours
@@ -85,7 +85,7 @@ export function TalentDevelopment() {
 
           <div>
             <div className="text-4xl font-bold gradient-text">
-              5★
+              0★
             </div>
             <div className="text-white/50">
               Student Rating
