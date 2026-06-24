@@ -85,10 +85,10 @@ export function Hero() {
           className="mt-20 grid grid-cols-2 gap-8 border-t border-white/5 pt-12 md:grid-cols-4"
         >
           {[
-            { v: "12+", l: "AI Systems Deployed" },
-            { v: "8", l: "Industry Verticals" },
-            { v: "99.9%", l: "Uptime" },
-            { v: "40ms", l: "Avg. Inference" },
+            { v: "0", l: "AI Systems Deployed" },
+            { v: "0", l: "Industry Verticals" },
+            { v: "0", l: "Uptime" },
+            { v: "0", l: "Avg. Inference" },
           ].map((s) => (
             <div key={s.l}>
               <div className="font-space text-3xl font-bold text-white md:text-4xl">{s.v}</div>
