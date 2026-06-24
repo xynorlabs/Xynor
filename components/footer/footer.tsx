@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -35,7 +36,7 @@ const sections = [
 
 const socials = [
   { label: "Twitter", href: "https://x.com/XynorLabs" },
-  { label: "LinkedIn", href: "https://linkedin.com/in/xynor-labs-undefined-4926b2416" },
+  { label: "LinkedIn", href: "https://linkedin.com/in/xynor-labs-4926b2416" },
   { label: "GitHub", href: "https://github.com/XynorLabs" },
   { label: "YouTube", href: "https://www.youtube.com/@xynorlabs?si=F9swCc70z2MaYIjn" },
   { label: "Instagram", href: "https://www.instagram.com/xynor_labs?utm_source=qr&igsh=dW5jOTcwbWkyMmZj" },
@@ -81,15 +82,20 @@ export function Footer() {
 
           {/* Brand */}
           <div className="lg:col-span-2">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="relative h-7 w-7">
-                <div className="absolute inset-0 rotate-45 rounded-md bg-gradient-to-br from-[#6366F1] to-[#06B6D4]" />
-                <div className="absolute inset-1 rotate-45 rounded bg-[#050505]" />
-              </div>
-              <span className="font-space text-base font-semibold tracking-tight">
-                Xynor<span className="text-white/50">Labs</span>
-              </span>
-            </Link>
+          <Link href="/" className="flex items-center gap-2">
+            <div className="relative h-7 w-7">
+              <Image
+                src="/logos/xynor_logo_options_spacex_style.png"
+                alt="Xynor Labs"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+            <span className="font-space text-base font-semibold tracking-tight">
+              Xynor<span className="text-white/50">Labs</span>
+            </span>
+          </Link>
 
             <p className="mt-4 max-w-sm text-sm text-white/50">
               AI Engineering Company. Building intelligent systems for the

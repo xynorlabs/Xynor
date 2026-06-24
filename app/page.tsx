@@ -1,4 +1,3 @@
-
 import { Navbar } from "@/components/navbar/navbar";
 import { Footer } from "@/components/footer/footer";
 import { Hero } from "@/components/hero/hero";
@@ -6,6 +5,7 @@ import { AICore } from "@/components/ai-core/ai-core";
 import { Ecosystem } from "@/components/ecosystem/ecosystem";
 import { BentoGrid } from "@/components/bento-grid/bento-grid";
 import { Founders } from "@/components/founders/founders";
+import { TalentDevelopment } from "@/components/talent-development/talent-development";
 import { Playground } from "@/components/playground/playground";
 import { CaseStudies } from "@/components/case-studies/case-studies";
 import { TechStack } from "@/components/tech-stack/tech-stack";
@@ -20,6 +20,7 @@ export default function Home() {
       <Ecosystem />
       <BentoGrid />
       <Founders />
+      <TalentDevelopment />
       <Playground />
       <CaseStudies />
       <TechStack />

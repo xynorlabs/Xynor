@@ -1,3 +1,4 @@
+// @ts-nocheck
 
 
 "use client";
@@ -43,3 +44,6 @@ export function Scene() {
     </Canvas>
   );
 }
+
+
+

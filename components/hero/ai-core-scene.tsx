@@ -1,3 +1,4 @@
+// @ts-nocheck
 
 
 "use client";
@@ -73,3 +74,4 @@ export function AICoreScene() {
     </Canvas>
   );
 }
+

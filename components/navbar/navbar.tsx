@@ -1,7 +1,7 @@
-
 "use client";
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -41,15 +41,20 @@ export function Navbar() {
             scrolled ? "glass-strong shadow-2xl" : "bg-white/5 backdrop-blur-md"
           )}
         >
-          <Link href="/" className="flex items-center gap-2">
-            <div className="relative h-7 w-7">
-              <div className="absolute inset-0 rotate-45 rounded-md bg-gradient-to-br from-[#6366F1] to-[#06B6D4]" />
-              <div className="absolute inset-1 rotate-45 rounded bg-[#050505]" />
-            </div>
-            <span className="font-space text-base font-semibold tracking-tight">
-              Xynor<span className="text-white/50">Labs</span>
-            </span>
-          </Link>
+        <Link href="/" className="flex items-center gap-2">
+          <div className="relative h-7 w-7">
+            <Image
+              src="/logos/xynor_logo_options_spacex_style.png"
+              alt="Xyron Labs"
+              fill
+              className="object-contain"
+              priority
+            />
+          </div>
+          <span className="font-space text-base font-semibold tracking-tight">
+            Xynor<span className="text-white/50">Labs</span>
+          </span>
+        </Link>
 
           <div className="hidden items-center gap-1 md:flex">
             {navItems.map((item) => (

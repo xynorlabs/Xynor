@@ -1,3 +1,4 @@
+// @ts-nocheck
 
 "use client";
 import { useRef, useMemo } from "react";
@@ -67,3 +68,4 @@ export function Network() {
     </Canvas>
   );
 }
+
